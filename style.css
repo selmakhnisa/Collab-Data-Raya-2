@@ -1,0 +1,62 @@
+
+
+.dokumentasi-foto {
+    border-radius: 1rem;
+}
+
+.dokumentasi-foto .slide-container .img-container {
+    border-radius: 1rem 1rem 0 0;
+}
+.slide-container {
+    position: relative;
+}
+
+.img-container {
+    
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap:1rem;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    margin: 0 auto;
+    aspect-ratio: 16/9;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.img-container img {
+    scroll-snap-align: start;
+    flex: 1 0 100%;
+}
+
+.slide-navigator {
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slide-navigator a {
+    width: 1.5rem;
+    height: 1.5rem;
+    opacity: 70%;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: ease 250ms;
+}
+
+.slide-navigator a:hover {
+    opacity: 2;
+}
+
+.video-container, video {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.deskripsi {
+    text-align: justify;
+}
