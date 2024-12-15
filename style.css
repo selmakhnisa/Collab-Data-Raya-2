@@ -12,6 +12,7 @@ nav ul {
     display: flex;
     justify-content: center;
     margin: 0;
+    border-radius: 5rem;
 }
 
 nav ul li {
