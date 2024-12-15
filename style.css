@@ -5,6 +5,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 100;
+    border-radius: 5rem;
 }
 
 nav ul {
@@ -12,7 +13,6 @@ nav ul {
     display: flex;
     justify-content: center;
     margin: 0;
-    border-radius: 5rem;
 }
 
 nav ul li {
