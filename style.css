@@ -43,7 +43,6 @@ nav ul li a {
 }
 
 .img-container {
-    
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -102,7 +101,7 @@ nav ul li a {
 }
 
 .team-card {
-    background: #222;
+    background: lightgrey;
     padding: 15px;
     border-radius: 8px;
     text-align: center;
@@ -134,7 +133,7 @@ nav ul li a {
 }
 
 .modal-content {
-    background: lightgrey;
+    background: #222;
     margin: 10% auto;
     padding: 20px;
     border-radius: 8px;
