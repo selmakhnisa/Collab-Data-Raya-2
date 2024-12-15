@@ -134,7 +134,7 @@ nav ul li a {
 }
 
 .modal-content {
-    background: #222;
+    background: lightgrey;
     margin: 10% auto;
     padding: 20px;
     border-radius: 8px;
