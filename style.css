@@ -24,7 +24,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-#header {
+#Header {
     background: url('hero bg.jpg') no-repeat center center/cover;
     height: 250px;
     display: flex;
