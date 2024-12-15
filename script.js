@@ -12,4 +12,43 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
-  
+
+const profiles = {
+    "steven-smith": {
+        image: "Photo1.jpeg",
+        name: "Steven Smith",
+        title: "Assistance Manager",
+        bio: "Steven Smith has over 10 years of experience in management and operations."
+    },
+    "jane-doe": {
+        image: "Photo1.jpeg",
+        name: "Jane Doe",
+        title: "Assistance Manager",
+        bio: "Jane Doe is an expert in project planning and client relations."
+    }
+};
+
+function showProfile(memberKey) {
+    const profile = profiles[memberKey];
+    if (profile) {
+        document.getElementById('profile-image').src = profile.image;
+        document.getElementById('profile-name').innerText = profile.name;
+        document.getElementById('profile-title').innerText = profile.title;
+        document.getElementById('profile-bio').innerText = profile.bio;
+
+        // Tampilkan modal
+        document.getElementById('profile-modal').style.display = 'block';
+    }
+}
+
+function closeProfile() {
+    document.getElementById('profile-modal').style.display = 'none';
+}
+
+// Tutup modal jika klik di luar area modal
+window.onclick = function(event) {
+    const modal = document.getElementById('profile-modal');
+    if (event.target == modal) {
+        closeProfile();
+    }
+}
