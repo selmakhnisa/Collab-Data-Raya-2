@@ -6,6 +6,34 @@
     <title>Document</title>
 </head>
 <body>
+<!-- Team Members Section -->
+    <section id="team">
+        <div class="team-container">
+            <!-- Card 1 -->
+            <div class="team-card" onclick="showProfile('steven-smith')">
+                <img src="Photo1.jpeg" alt="Steven Smith">
+                <h3>Steven Smith</h3>
+                <p>Assistance Manager</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="team-card" onclick="showProfile('jane-doe')">
+                <img src="Photo1.jpeg" alt="Jane Doe">
+                <h3>Jane Doe</h3>
+                <p>Assistance Manager</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Modal -->
+    <div id="profile-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeProfile()">&times;</span>
+            <img id="profile-image" src="" alt="Profile Picture">
+            <h2 id="profile-name"></h2>
+            <h3 id="profile-title"></h3>
+            <p id="profile-bio"></p>
+        </div>
+    </div>
     
 </body>
 </html>
