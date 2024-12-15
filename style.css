@@ -24,7 +24,14 @@ nav ul li a {
     font-weight: bold;
 }
 
-
+#header {
+    background: url('hero bg.jpg') no-repeat center center/cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
 .dokumentasi-foto {
     border-radius: 1rem;
 }
