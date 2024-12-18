@@ -14,10 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 const profiles = {
-    "steven-smith": {
-        image: "Photo1.jpeg",
-        name: "Steven Smith",
-        title: "Assistance Manager",
+    "syadith": {
+        image: "Foto Anggota/Foto Syadith.jpg",
+        name: "Aqyra Syadith Iswara",
+        title: "Cief of The Team",
         bio: "Steven Smith has over 10 years of experience in management and operations."
     },
     "jane-doe": {
