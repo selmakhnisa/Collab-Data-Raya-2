@@ -18,7 +18,7 @@ const profiles = {
         image: "Foto Anggota/Foto Syadith.jpg",
         name: "Aqyra Syadith Iswara",
         title: "Cief of The Team",
-        bio: "Steven Smith has over 10 years of experience in management and operations."
+        bio: "Pemuda soleh yang menempuh pendidikan program studi Bisnis Digital di Universitas Negeri Jakarta. Lulus dari SMA Suluh Jakarta jurusan IPS, saya memiliki ketertarikan untuk menuntut ilmu terkait teknologi digital dan ingin menjadi seorang Web Developer/Master di masa depan. Selain itu, saya juga tertarik dalam Game Developing"
     },
     "jane-doe": {
         image: "Photo1.jpeg",
